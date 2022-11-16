@@ -3,9 +3,7 @@
 
 <head>
     <title>
-        How to create drag and drop
-        features for images reorder
-        using HTML CSS and jQueryUI?
+      Solution of Frontend Web Developer Task
     </title>
 
     <link href =
@@ -29,7 +27,7 @@
 
         /* image dimension */
         img{
-            height: 200px;
+            height: 250px;
             width: 350px;
         }
 
@@ -47,18 +45,10 @@
             display: inline-block;
         }
 
-        /* Output order styling */
-        #outputvalues{
-        margin: 0 2px 2px 2px;
-        padding: 0.4em;
-        padding-left: 1.5em;
-        width: 250px;
-        border: 2px solid dark-green;
-        background : gray;
-        }
+
         .listitemClass
         {
-            border: 1px solid #006400;
+            border: 2px solid #006400;
             width: 350px;
         }
         .height{
@@ -82,7 +72,7 @@
                         .replace("imageNo", ""));
             });
 
-            $('#outputvalues').val(values);
+
         }
     </script>
 </head>
@@ -90,8 +80,7 @@
 <body>
     <h1 style="color:red">Sumit Nagar </h1>
 
-    <b>Drag and drop
-    </b>
+
 
     <div class="height"></div><br>
 
@@ -121,10 +110,6 @@
         </div>
     </div>
 
-    <div id="outputDiv">
-        <b>Output of ID's of images : </b>
-        <input id="outputvalues" type="text" value="" />
-    </div>
 </body>
 
 </html>
